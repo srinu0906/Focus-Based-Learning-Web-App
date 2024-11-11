@@ -4,10 +4,62 @@ body{
     display: grid;
     flex-direction: column;
     align-items: center;
+    background-color: #f1f1f1;
 }
-
-h1,h2{
-    color: blue;
+main{
+    background: url("https://i.pinimg.com/736x/6c/09/ae/6c09aed3a5a398c5e6bcba2cc6289efa.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.cls{
+    background: url("https://dhjhkxawhe8q4.cloudfront.net/mit-press/wp-content/uploads/2022/03/25123122/Books-1-1-scaled.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#english{
+    background: url("https://www.shutterstock.com/shutterstock/photos/1951165312/display_1500/stock-vector-colorful-alphabet-seamless-vector-pattern-with-multicolored-letters-on-white-background-1951165312.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#maths{
+    background: url("https://png.pngtree.com/thumb_back/fh260/background/20210814/pngtree-educational-mathematical-formulas-on-white-background-image_763079.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#hindi{
+    background: url("https://learningmole.com/wp-content/uploads/2023/11/Hindi-Alphabet-for-Kids-1.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#biology{
+    background: url("https://hms.harvard.edu/sites/default/files/media/850DNA-brain-GettyImages-940458246.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#physics{
+    background: url("https://media-cldnry.s-nbcnews.com/image/upload/newscms/2018_22/2451826/180601-atomi-mn-1540.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#social{
+    background: url("https://m.media-amazon.com/images/I/91JEXV3kk1L.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+h2{
+    color: white;
+    text-align: center;
+}
+h1{
+    color: rgb(33, 77, 233);
     text-align: center;
 }
 main{
@@ -34,4 +86,81 @@ form{
 button {
     width: 100%;
     padding: 20px 0px 20px 0px;
+    font-weight: bold;
+}
+#topics{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+#topics button{
+    padding: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    height: 50px;
+    width: 250px;
+}
+
+#matter{
+    background: url("https://www.priyamstudycentre.com/wp-content/uploads/2021/04/States-of-matter-solid-liquid-gas-plasma.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#motion{
+    background: url("https://i.pinimg.com/736x/f7/27/fb/f727fb9c97b87937eb9a063edb6d471a.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#laws{
+    background: url("https://sciencenotes.org/wp-content/uploads/2022/04/Newtons-Laws-of-Motion.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#pure{
+    background: url("https://i.ytimg.com/vi/HtGB0Zhb-8E/maxresdefault.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#atom{
+    background: url("https://www.thoughtco.com/thmb/pnI7PMtFMEFA_x8ywGXxpHznMOk=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/GettyImages-845813912-972bc4b9cf5b47fb9979c1de507335d0.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#inside{
+    background: url("https://www.nottingham.ac.uk/PressReleaseLongForm-Images/Science/Atompic.x555cbe1c.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#gravity{
+    background: url("https://i.ytimg.com/vi/9FV-6sQrcVQ/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLCo_APW4ITO4KRoLd6Y9aQAfKl6zQ");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#float{
+    background: url("https://www.gunt.de/images/datasheet/553/HM-150.06-Stability-of-floating-bodies-gunt-553-zeichnung_einzelheit_1.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#work{
+    background: url("https://mechanicsmap.psu.edu/websites/10_work_energy_particle/10-2_work_and_energy_principle/images/work_energy_diagram.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#sound{
+    background: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTAvy-8jvMitTiKs68XvOmmSlVzWQg4iUNo5Q&s");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+p{
+    background-color: rgba(255, 255, 255, 0.644);
 }
