@@ -11,6 +11,17 @@ main{
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    margin-top: 100px;
+    
+}
+div{
+    margin-top: 150px;
+}
+header{
+    position:fixed;
+    top:0%;
+    width: 100%;
+    backdrop-filter: blur(30px);
 }
 .cls{
     background: url("https://dhjhkxawhe8q4.cloudfront.net/mit-press/wp-content/uploads/2022/03/25123122/Books-1-1-scaled.jpg");
