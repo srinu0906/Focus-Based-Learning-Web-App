@@ -1,0 +1,133 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    display: grid;
+    flex-direction: column;
+    align-items: center;
+    background-color:#8eb289;
+    font-family:Arial, Helvetica, sans-serif;
+}
+h2{  
+    text-align: center;
+}
+h1{
+    text-align: center;
+    font-weight: bold;
+    font-family: cursive;
+}
+main{
+    display: flex;
+    padding: 100px 50px 100px 50px;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;  
+    background-image: url("https://t3.ftcdn.net/jpg/02/74/76/34/240_F_274763459_HADMcYrskkrAPtBDWqv4RHXz9QXjPoLX.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.cls{
+    background-image: url("https://images.unsplash.com/photo-1516979187457-637abb4f9353?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+#English{
+    background-image: url("https://images.unsplash.com/photo-1511548774318-563182fe8d03?fm=jpg&q=60&w=3000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTV8fGElMjBsZXR0ZXJ8ZW58MHx8MHx8fDA%3D");
+    background-repeat: repeat;
+    background-size: contain;
+    background-blend-mode:multiply;
+    
+}
+#Hindi{
+    background-image: url("https://www.shutterstock.com/image-illustration/hindi-swarbarn-set-means-vowels-260nw-2184045109.jpg");
+    background-repeat: repeat;
+    background-size: contain;
+    background-blend-mode: normal;
+    
+}
+#Maths{
+    background-image: url("https://static.vecteezy.com/system/resources/thumbnails/000/143/266/small_2x/free-math-symbol-vector.jpg");
+    background-repeat: repeat;
+    background-size: contain;
+    background-blend-mode: normal;
+    
+}
+#Biology{
+    background-image: url("https://www.thoughtco.com/thmb/9cOHdlPOK761Y1JPrelep-Dkhso=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/cell_bio-273f7345f19941abab4d8399ba50dbe4.jpg");
+    background-repeat: repeat;
+    background-size: contain;
+    background-blend-mode: normal;
+}
+#Physics{
+    background-image: url("https://as2.ftcdn.net/v2/jpg/01/38/33/33/1000_F_138333378_OEImVnCyH8gKw6sE6fNnuNdiCGK5C5GQ.jpg");
+    background-repeat: repeat;
+    background-size: contain;
+    background-blend-mode: normal;
+}
+#Social{
+    background-image: url("https://media.istockphoto.com/id/1780141124/vector/world-map-with-national-borders-pacific-ocean-blank-map.jpg?s=612x612&w=0&k=20&c=k2QwxwygznHAuBrxwZXWdeVSkEJG3Sv1UNLRe7Ty8i0=");
+    background-repeat: repeat;
+    background-size: contain;
+    background-blend-mode: normal;
+}
+#Science{
+    background-image: url("https://media.istockphoto.com/id/1780141124/vector/world-map-with-national-borders-pacific-ocean-blank-map.jpg?s=612x612&w=0&k=20&c=k2QwxwygznHAuBrxwZXWdeVSkEJG3Sv1UNLRe7Ty8i0=");
+    background-repeat: repeat;
+    background-size: contain;
+    background-blend-mode: normal;
+}
+#Evs{
+    background-image: url("https://media.istockphoto.com/id/1780141124/vector/world-map-with-national-borders-pacific-ocean-blank-map.jpg?s=612x612&w=0&k=20&c=k2QwxwygznHAuBrxwZXWdeVSkEJG3Sv1UNLRe7Ty8i0=");
+    background-repeat: repeat;
+    background-size: contain;
+    background-blend-mode: normal;
+}
+form{
+    border: 2px solid black;
+    border-radius: 10px;
+    margin: 20px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    font-weight: bold;
+    border:0px solid white;
+    box-shadow: 1px 1px 10px black;
+    backdrop-filter: blur(10px);
+}
+.submit{
+    border-radius: 10px;
+    background-color: rgb(21, 176, 47);
+    color: white;
+    font-weight: bold;
+}
+input{
+    border-radius: 5px;
+    border:0px solid white;
+    box-shadow: 1px 1px 5px black;
+    margin: 5px 0px 5px 0px;
+    padding: 5px;
+}
+button {
+    width: 100%;
+    padding: 20px 0px 20px 0px;
+    border-radius: 10px;
+    font-weight: bold;
+    border:0px solid white;
+    box-shadow: 5px 5px 10px black;
+}
+header{
+    box-shadow: 5px 5px 20px black;
+    margin-bottom: 10px;
+    border-radius: 10px;
+}
+#contents {
+    padding: 20px;
+}
+footer{
+    padding: 10px;
+    text-align: center;
+    font-weight: bold;
+    font-size: small;
+}
