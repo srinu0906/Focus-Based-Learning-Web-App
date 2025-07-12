@@ -1,4 +1,4 @@
-# Focus Based Learning Web App
+# Focused Learning Web Application for Students
 
 This project was developed as a Community Service Project during the 5th semester. It is a web-based platform designed to manage and organize educational content, including subjects, chapters, topics, and video resources.
 
