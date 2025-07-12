@@ -8,6 +8,14 @@ This project was developed as a Community Service Project during the 5th semeste
 
 A PHP and MySQL-based web application built as part of an Academic Community Service (ACS) project. The platform helps students engage in structured, chapter-wise learning by browsing subjects, accessing relevant topics, and watching educational videos. Teachers can log in to manage classes, chapters, and video content.
 
+As part of our Community Service Project, our team visited a school in Gudlavalleru Panchayat and interacted with the students. We identified a significant issue: students faced distractions like ads and YouTube Shorts while watching educational content on YouTube. To address this, we developed a web application to provide distraction-free, curriculum-aligned educational content. This solution ensures students can access organized learning materials seamlessly, free from irrelevant recommendations and distractions.
+
+### Students Dashboard:
+The web application features a child-friendly interface that allows students to browse curriculum-based videos by subjects, chapters, and topics. The dashboard includes simple button navigation and subject-themed background images to ensure ease of use and engagement for young learners.
+
+### Teachers Dashboard:
+The platform includes a secure dashboard for teachers to manage content. Teachers can upload, organize, and categorize videos by subjects and grade levels, ensuring alignment with curriculum standards. The dashboard simplifies content management, requiring no advanced technical expertise.
+
 ---
 
 
@@ -64,10 +72,13 @@ The project consists of two main parts:
 
 ## Technologies Used
 
-* Frontend: HTML5, CSS3, JavaScript
+* Frontend: HTML5, CSS3, JavaScript, AJAX
 * Backend: PHP (procedural)
 * Database: MySQL (via `mysqli`)
 * No external libraries or frameworks used
+
+## Hosting:
+During development, the application was tested on the XAMPP server. Now, it is hosted on the InfinityFree live server, ensuring accessibility for schools in Gudlavalleru Panchayat and beyond. The hosting setup provides reliability, scalability, and smooth performance. 
 
 ---
 
